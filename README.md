@@ -22,6 +22,7 @@ ImByron / ЯБайрон это маленкий проект, который я
 * HTML
 * CSS
 * Bootstrap
+* JQuery
 * Markdown
 * https://rustih.ru/dzhordzh-bajron/
 
