@@ -49,13 +49,29 @@ Python 3 и модуль Flask позволяют создать "скелет" 
 
 Для вебсайта были созданы 2 стринцы: Основной генератор и краткое описание того на основе какой модели генерируются новые стихи (данное описание указано в конце этого файла).
 
-Пример: ДОБАВИТЬ
+Главная страница:
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/MainPage_Clean.PNG?raw=true "CleanMainPage")
+
+Главная страница + сгенерированый стих
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/MainPage_Example.PNG?raw=true "PopulatedMainPage")
+
+Описание:
+
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/DescriptionPage_1.PNG?raw=true "DescriptionPage_1")
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/DescriptionPage_2.PNG?raw=true "DescriptionPage_2")
 
 ### API
 
 Разработка API добавлена была для того, чтобы пользователю не требовалось посищять вебсайт, чтобы сгенерировать новый стих. К сожалению, потому что все стихи сгенерированы используя кирилицу - информация на выходе не читается правильно и кодировка букв нарушается. Для того чтобы прочесть текст - можно скопировать его содиржание и использовать конвертер (https://www.online-toolz.com/tools/text-unicode-entities-convertor.php) как в данном примере: 
 
-ДОБАВИТЬ ПРИМЕР
+API на вебсайте: 
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/APIExample.PNG?raw=true "WEB_API")
+
+API в командной строке:
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/curl_example.PNG?raw=true "curl_API")
+
+Онлайн конвертер:
+![](https://github.com/Si-ja/ImByron/blob/master/VisualExamples/WorkingConverter.PNG?raw=true "Converter_Example")
 
 ### Итог:
 
