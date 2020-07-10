@@ -32,16 +32,14 @@ def api_all():
             order = int(request.args["order"])
         else:
             return "Ошибка: Степень последовательности не указана. Пожалуйста укажите 'order' в api запросе. "       
-        # Get information from the html with the button press
         chains = Chains(order = order, 
                         filename = "Data/poems Baijron_clean.txt",
                         length = 50)
         output = chains.getPoem(rest = True)
         return jsonify(result = output)
-
     except:
         pass
         
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug = False)
